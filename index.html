@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Rizqi Indah Pratiwi</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, #F6FFEA 0%, #FFDE96 100%);
+        }
+        /* Custom Palette Utility Classes */
+        .bg-honeydew { background-color: #F6FFEA; }
+        .bg-soft-peach { background-color: #FFDE96; }
+        .bg-coral-glow { background-color: #FA855A; }
+        .bg-tomato-jam { background-color: #C93638; }
+        .bg-sky-blue { background-color: #62C4DA; }
+
+        .text-coral-glow { color: #FA855A; }
+        .text-tomato-jam { color: #C93638; }
+        .text-sky-blue { color: #62C4DA; }
+
+        .border-coral-glow { border-color: #FA855A; }
+        .border-soft-peach { border-color: #FFDE96; }
+    </style>
+</head>
+<body class="text-gray-800 antialiased p-3 md:p-8">
+
+    <div class="max-w-6xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden border border-[#FFDE96]/50">
+        
+        <div class="bg-gray-50 px-4 py-3 flex items-center border-b border-gray-100">
+            <div class="flex space-x-2 mr-4">
+                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+            </div>
+            <div class="flex-1 max-w-xs mx-auto bg-gray-200/60 text-[11px] text-center py-1 rounded-md text-gray-500 font-mono">
+                rizqiindah.dev/portfolio
+            </div>
+        </div>
+
+        <header class="py-4 px-6 flex justify-between items-center bg-white/90 border-b border-gray-50 sticky top-0 z-50">
+            <div class="flex items-center space-x-3">
+            <div class="w-9 h-9 rounded-full overflow-hidden border-2 border-[#FA855A] shadow-sm">
+                 <img src="foto_formal.png" alt="Rizqi Indah Pratiwi" class="w-full h-full object-cover">
+            </div>
+            <div class="text-xl font-extrabold tracking-tight">Indah<span class="text-coral-glow"></span></div>
+            </div>
+           <nav class="hidden md:flex space-x-6 text-sm font-semibold text-gray-600">
+                <a href="#hero" class="hover:text-coral-glow transition-colors">Home</a>
+                <a href="#about" class="hover:text-coral-glow transition-colors">About</a>
+                <a href="#skills" class="hover:text-coral-glow transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-coral-glow transition-colors">Projects</a>
+            </nav>
+            <a href="#contact" class="bg-coral-glow hover:bg-[#E06E43] text-white font-bold text-xs px-5 py-2.5 rounded-full shadow-lg shadow-orange-500/20 transition-all">
+                Hire Me
+            </a>
+        </header>
+
+        <section id="hero" class="grid grid-cols-1 md:grid-cols-12 gap-8 px-6 md:px-12 py-12 items-center bg-gradient-to-b from-white to-[#F6FFEA]/40">
+            <div class="md:col-span-7 space-y-6">
+                <div class="flex space-x-3 text-lg">
+                    <a href="https://www.linkedin.com/in/rizqiindah" target="_blank" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-[#F6FFEA] flex items-center justify-center text-gray-700 hover:text-tomato-jam transition-all">🔗</a>
+                    <a href="mailto:rizqiindahprtw@gmail.com" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-[#F6FFEA] flex items-center justify-center text-gray-700 hover:text-tomato-jam transition-all">✉️</a>
+                </div>
+                
+                <div class="space-y-2">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-700">Hi, I'm <span class="text-coral-glow">Rizqi Indah Pratiwi</span></h2>
+                    <p class="text-xl font-semibold text-gray-500">Information Technology Graduate</p>
+                </div>
+
+                <p class="text-gray-600 leading-relaxed text-justify max-w-xl">
+                   IT graduate with experience in web development using React.js, Laravel, and JavaScript. 
+                   Worked on projects for KPK and Diskominfo, with additional experience in QA testing and data analysis.
+                </p>
+
+                <div class="flex flex-wrap gap-4 pt-2">
+                   <a href="Rizqi_Indah_Pratiwi_CV.pdf" target="_blank" class="bg-coral-glow hover:bg-[#E06E43] text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-orange-500/20 transition-all flex items-center justify-center">
+                        View CV
+                   </a>
+                   <a href="https://www.linkedin.com/in/rizqiindah" target="_blank" class="border-2 border-gray-200 hover:border-coral-glow bg-white text-gray-700 hover:text-coral-glow font-bold px-6 py-3 rounded-xl transition-all inline-flex items-center justify-center">
+                        View LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:col-span-5 flex justify-center">
+                <div class="w-72 h-80 bg-gradient-to-tr from-[#FA855A] to-[#FFDE96] rounded-3xl p-4 shadow-xl relative overflow-hidden flex items-center justify-center text-white font-bold">
+                    <div class="md:col-span-5 flex justify-center">
+                        <div class="w-80 h-85 mx-auto rounded-2xl overflow-hidden shadow-2xl soft-glow">
+                         <img src="fto_wisuda.JPG" alt="Profile" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-gray-50 pt-3 flex flex-wrap px-6 md:px-12 gap-1 border-t border-b border-gray-100">
+            <div class="bg-white text-tomato-jam font-bold px-6 py-2.5 rounded-t-xl text-xs uppercase border-t border-x border-gray-200/80 -mb-[1px]">
+                Profile & Competencies
+            </div>
+        </div>
+
+        <section id="about" class="p-6 md:p-12 grid grid-cols-1 lg:grid-cols-12 gap-8 bg-white">
+            <div class="lg:col-span-5 space-y-4">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-tomato-jam">About Me</h3>
+                <h4 class="text-2xl font-extrabold tracking-tight">Web Developer & Quality Assurance Enthusiast</h4>
+                <p class="text-sm text-gray-600 leading-relaxed text-justify">
+                   As a developer focused on Front-End Engineering, I combine coding expertise with Quality Assurance (QA) methodologies by conducting thorough User Acceptance Testing (UAT) and functional testing to ensure system reliability. Supported by experience as a Data Analyst, I am skilled in processing and analyzing internal attendance data with high accuracy to support strategic HR decision-making.
+                <div class="grid grid-cols-2 gap-4 pt-2">
+                    <div class="bg-[#F6FFEA] p-3 rounded-xl border border-[#FFDE96]/40">
+                        <span class="text-2xl font-extrabold text-coral-glow block">GPA</span>
+                        <span class="text-xs font-bold text-gray-600">3.43 / 4.00</span>
+                    </div>
+                    <div class="bg-[#F6FFEA] p-3 rounded-xl border border-[#FFDE96]/40">
+                        <span class="text-2xl font-extrabold text-sky-blue block">TOEIC</span>
+                        <span class="text-xs font-bold text-gray-600">Score 617</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 space-y-4">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-gray-400">Internship Experience</h3>
+                
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <div>
+                            <h5 class="font-bold text-base text-gray-900">Front-End Developer Intern</h5>
+                            <p class="text-xs text-coral-glow font-semibold">Komisi Pemberantasan Korupsi (KPK)</p>
+                        </div>
+                        <span class="text-[11px] font-bold bg-[#FFDE96] text-gray-800 px-2.5 py-1 rounded-full">Nov 2026 - Present</span>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-2">
+                    Contributed as part of a team to develop two web-based applications using React.js, focusing on responsive and user-friendly interfaces. Conducted User Acceptance Testing (UAT) and functional testing, as well as analyzed internal attendance data to support HR needs.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <div>
+                            <h5 class="font-bold text-base text-gray-900">Front-End Developer Intern</h5>
+                            <p class="text-xs text-sky-blue font-semibold"> Dinas Komunikasi Informatika dan Persandian Kota Yogyakarta</p>
+                        </div>
+                        <span class="text-[11px] font-bold bg-[#FFDE96] text-gray-600 px-2.5 py-1 rounded-full">Jun 2024 - Aug 2024</span>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-2">
+                        Developed a web-based monitoring dashboard using HTML, CSS, and JavaScript to digitalize three main reporting processes, successfully reducing staff manual workload by 40%.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+     <section id="skills" class="p-6 md:p-12 bg-white">
+            <div class="flex justify-between items-end mb-8 flex-wrap gap-4">
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-[#839958] mb-1">My Skills</h3>
+            <h4 class="text-2xl font-extrabold text-[#105666]">Kompetensi & Perangkat Lunak</h4>
+                </div>
+            </div>
+    
+    <div class="bg-[#D9FFD2] rounded-3xl p-6 md:p-8 text-[#450C21] shadow-xl border border-[#A33E43]/10">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <div class="lg:col-span-7 space-y-4">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-[#A33E43] mb-4">Core Competencies</h3>
+                
+                <div class="flex flex-wrap gap-2.5">
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Front-End Development</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Back-End Development</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Responsive UI Design</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">API Integration</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">User Acceptance Testing (UAT)</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Functional Testing</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Database Design & ERD</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">CRUD System Workflow</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Authentication & Roles</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Version Control</span>
+                    <span class="bg-[#450C21] hover:bg-[#450C21]/90 text-[#D9FFD2] text-xs font-medium px-4 py-2 rounded-full transition-all cursor-default">Data Analysis</span>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 space-y-4">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-[#A33E43] mb-4">Software & Frameworks</h3>
+                
+                <div class="grid grid-cols-4 sm:grid-cols-5 gap-3 text-center">
+                    
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-8 h-8 mb-1.5" alt="React">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">React</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="w-8 h-8 mb-1.5" alt="Laravel">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">Laravel</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-8 h-8 mb-1.5" alt="JavaScript">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">JS</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8 mb-1.5" alt="PHP">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">PHP</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-8 h-8 mb-1.5" alt="MySQL">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">MySQL</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-8 h-8 mb-1.5" alt="HTML">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">HTML</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-8 h-8 mb-1.5" alt="CSS">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">CSS</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-8 h-8 mb-1.5" alt="Git">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">Git</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8 mb-1.5" alt="GitHub">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">GitHub</span>
+                    </div>
+
+                    <div class="bg-[#450C21]/5 border border-[#450C21]/10 p-2.5 rounded-xl flex flex-col items-center justify-center hover:border-[#A33E43] transition-colors">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-8 h-8 mb-1.5" alt="Figma">
+                        <span class="text-[10px] tracking-tight font-bold text-[#450C21]">Figma</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mt-4 pt-2 flex flex-wrap gap-2 items-center justify-center text-xs text-[#A33E43]">
+        <span class="font-bold mr-2 text-[#450C21] uppercase tracking-wider text-[11px]">Secondary Support Tools:</span>
+        <span class="bg-gray-50 border border-gray-200 px-3 py-1 rounded-md font-mono text-[#450C21]">VS Code</span>
+        <span class="bg-gray-50 border border-gray-200 px-3 py-1 rounded-md font-mono text-[#450C21]">PgAdmin</span>
+        <span class="bg-gray-50 border border-gray-200 px-3 py-1 rounded-md font-mono text-[#450C21]">phpMyAdmin</span>
+        <span class="bg-gray-50 border border-gray-200 px-3 py-1 rounded-md font-mono text-[#450C21]">Visual Paradigm</span>
+        <span class="bg-gray-50 border border-gray-200 px-3 py-1 rounded-md font-mono text-[#450C21]">Microsoft Office</span>
+    </div>
+
+</section>
+
+     <section id="projects" class="p-6 md:p-12 bg-white">
+    <div class="flex justify-between items-end mb-8 flex-wrap gap-4">
+        <div>
+            <h3 class="text-xs font-bold uppercase tracking-widest text-tomato-jam mb-1">My Projects & Certifications</h3>
+            <h4 class="text-2xl font-extrabold">Core System Project Portfolio</h4>
+        </div>
+        <span class="text-xs font-semibold text-gray-400">A showcase of technical workflows</span>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-gray-50/50 rounded-2xl p-5 border border-gray-100 flex flex-col justify-between hover:border-[#FFDE96] transition-all group">
+            <div>
+                <span class="text-[10px] font-bold text-coral-glow tracking-widest uppercase block mb-1">Internship FrontEnd Developer</span>
+                <h5 class="font-bold text-base text-gray-900 group-hover:text-tomato-jam transition-colors">Dinas Kominfo Kota Yogyakarta</h5>
+                <p class="text-xs text-gray-500 mt-2">
+                    Developed front-end web-based monitoring systems using HTML, CSS, and JavaScript to digitalize manual processes, improving efficiency and data security. Collaborated with UI/UX and backend teams and actively participated in stakeholder meetings.
+                </p>
+            </div>
+            <div class="mt-4">
+                <button onclick="openModal('Profile.jpg')" class="w-full mb-3 text-center text-xs font-bold bg-[#FFDE96] text-gray-800 hover:bg-[#ebd090] py-2 rounded-xl transition-colors shadow-sm">
+                    View Project
+                </button>
+                <div class="pt-3 border-t border-gray-200/50 flex justify-between items-center text-xs font-mono font-bold text-gray-500">
+                    <span class="text-tomato-jam">HTML · CSS · JS · Tailwind</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50/50 rounded-2xl p-5 border border-gray-100 flex flex-col justify-between hover:border-[#FFDE96] transition-all group">
+            <div>
+                <span class="text-[10px] font-bold text-coral-glow tracking-widest uppercase block mb-1">Final Project</span>
+                <h5 class="font-bold text-base text-gray-900 group-hover:text-tomato-jam transition-colors">Anasera Center Web Portal</h5>
+                <p class="text-xs text-gray-500 mt-2">
+                    Developed a full-stack website using HTML, CSS, JavaScript, Laravel, and MySQL to support the operational workflow of a child development therapy clinic. Features include service management, online registration, reservation history, and secure authentication via Laravel middleware.
+                </p>
+            </div>
+            <div class="mt-4">
+                <button onclick="openModal('anasera.png')" class="w-full mb-3 text-center text-xs font-bold bg-[#FFDE96] text-gray-800 hover:bg-[#ebd090] py-2 rounded-xl transition-colors shadow-sm">
+                    View Project
+                </button>
+                <div class="pt-3 border-t border-gray-200/50 flex justify-between items-center text-xs font-mono font-bold text-gray-500">
+                    <span class="text-tomato-jam">Laravel · MySQL · Tailwind</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50/50 rounded-2xl p-5 border border-gray-100 flex flex-col justify-between hover:border-[#FFDE96] transition-all group">
+            <div>
+                <span class="text-[10px] font-bold text-coral-glow tracking-widest uppercase block mb-1">Web Developer</span>
+                <h5 class="font-bold text-base text-gray-900 group-hover:text-tomato-jam transition-colors">Library Management System</h5>
+                <p class="text-xs text-gray-500 mt-2">
+                    A web-based library management system featuring full CRUD functionality for managing books, categories, staff, and borrowing records. Implemented separate role-based access control dashboards for administrators and borrowers.
+                </p>
+            </div>
+            <div class="mt-4">
+                <button onclick="openModal('perpustakaan.png')" class="w-full mb-3 text-center text-xs font-bold bg-[#FFDE96] text-gray-800 hover:bg-[#ebd090] py-2 rounded-xl transition-colors shadow-sm">
+                    View Project
+                </button>
+                <div class="pt-3 border-t border-gray-200/50 flex justify-between items-center text-xs font-mono font-bold text-gray-500">
+                    <span class="text-tomato-jam">PHP · HTML · CSS · Role Auth</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50/50 rounded-2xl p-5 border border-gray-100 flex flex-col justify-between hover:border-[#FFDE96] transition-all group">
+            <div>
+                <span class="text-[10px] font-bold text-coral-glow tracking-widest uppercase block mb-1">Official Certification</span>
+                <h5 class="font-bold text-base text-gray-900 group-hover:text-tomato-jam transition-colors">MOS: Excel 2019 Associate</h5>
+                <p class="text-xs text-gray-500 mt-2">
+                    Earned an official Microsoft Office Specialist certification in Excel 2019 Associate, validating advanced skills in spreadsheet management, complex formulas, data analysis, custom visualization, and professional technical reporting.
+                </p>
+            </div>
+            <div class="mt-4">
+                <button onclick="openModal('sertifikasiexcel.jpg')" class="w-full mb-3 text-center text-xs font-bold bg-[#FFDE96] text-gray-800 hover:bg-[#ebd090] py-2 rounded-xl transition-colors shadow-sm">
+                    View Certificate
+                </button>
+                <div class="pt-3 border-t border-gray-200/50 flex justify-between items-center text-xs font-mono font-bold text-gray-500">
+                    <span class="text-tomato-jam">Excel · Data Analysis · Pivot</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50/50 rounded-2xl p-5 border border-gray-100 flex flex-col justify-between hover:border-[#FFDE96] transition-all group">
+            <div>
+                <span class="text-[10px] font-bold text-coral-glow tracking-widest uppercase block mb-1">Language Certification</span>
+                <h5 class="font-bold text-base text-gray-900 group-hover:text-tomato-jam transition-colors">TOEIC English Proficiency</h5>
+                <p class="text-xs text-gray-500 mt-2">
+                    Official English proficiency certification with a score of 617. Demonstrates strong listening and reading competencies at an intermediate-upper working level tailored for professional corporate environments.
+                </p>
+            </div>
+            <div class="mt-4">
+                <button onclick="openModal('toefl.jpg')" class="w-full mb-3 text-center text-xs font-bold bg-[#FFDE96] text-gray-800 hover:bg-[#ebd090] py-2 rounded-xl transition-colors shadow-sm">
+                    View Certificate
+                </button>
+                <div class="pt-3 border-t border-gray-200/50 flex justify-between items-center text-xs font-mono font-bold text-gray-500">
+                    <span class="text-tomato-jam">TOEIC · English · Score 617</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="imageModal" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 transition-all duration-300">
+        <div class="relative max-w-4xl w-full flex flex-col items-center">
+            <button onclick="closeModal()" class="absolute -top-12 right-0 bg-white text-gray-900 rounded-full w-9 h-9 flex items-center justify-center font-bold shadow-lg hover:bg-gray-200 transition-colors z-50">
+                ✕
+            </button>
+            <img id="modalImage" src="" alt="Project Full" class="max-h-[80vh] max-w-full object-contain rounded-xl shadow-2xl border border-white/10">
+        </div>
+    </div>
+
+    <script>
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            
+            if (modal && modalImg) {
+                modalImg.src = imageSrc;
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+    </script>
+</section>
+
+       <section id="contact" class="px-6 md:px-12 py-12 bg-gradient-to-t from-[#F6FFEA]/30 to-white border-t border-gray-100">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div class="md:col-span-5 space-y-3">
+            <h3 class="text-xs font-bold uppercase tracking-widest text-tomato-jam">Get In Touch</h3>
+            <h4 class="text-3xl font-extrabold tracking-tight">Let's Connect for System Collaboration</h4>
+            <p class="text-xs text-gray-500 max-w-sm">
+                Feel free to reach out via the form or through my professional contacts for web engineering (front-end development), software testing (UAT), or technical data processing needs.
+            </p>
+            
+            <div class="text-xs text-gray-600 space-y-2 pt-2 font-medium">
+                <p class="flex items-center gap-2">
+                    <span>✉️</span> 
+                    <a href="mailto:rizqiindahprtw@gmail.com" class="text-gray-800 hover:text-tomato-jam transition-colors">rizqiindahprtw@gmail.com</a>
+                </p>
+                <p class="flex items-center gap-2">
+                    <span>📞</span> 
+                    <a href="https://wa.me/6285776154405" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:text-tomato-jam transition-colors">+62 857-7615-4405</a>
+                </p>
+                <p class="flex items-center gap-2">
+                    <span>🔗</span> 
+                    <a href="https://www.linkedin.com/in/rizqiindah" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:text-tomato-jam transition-colors underline decoration-[#FFDE96] underline-offset-2">linkedin.com/in/rizqiindah</a>
+                </p>
+                <p class="flex items-center gap-2">
+                    <span>💻</span> 
+                    <a href="https://github.com/rizqiindah32" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:text-tomato-jam transition-colors underline decoration-[#FFDE96] underline-offset-2">github.com/rizqiindah32</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="md:col-span-7 bg-white p-6 rounded-2xl shadow-xl shadow-orange-500/5 border border-[#FFDE96]/40">
+            <form class="space-y-4" onsubmit="event.preventDefault();">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-[11px] font-bold text-gray-500 uppercase mb-1">Full Name</label>
+                        <input type="text" class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-2.5 text-xs focus:outline-none focus:border-coral-glow" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-bold text-gray-500 uppercase mb-1">Email Address</label>
+                        <input type="email" class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-2.5 text-xs focus:outline-none focus:border-coral-glow" placeholder="name@email.com">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-500 uppercase mb-1">Message</label>
+                    <textarea rows="3" class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-2.5 text-xs focus:outline-none focus:border-coral-glow" placeholder="Write your collaboration message here..."></textarea>
+                </div>
+                <button type="button" class="w-full bg-coral-glow hover:bg-[#E06E43] text-white font-bold text-xs py-3 rounded-xl shadow-md transition-all">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+        <footer class="bg-gray-50 border-t border-gray-100 py-6 px-6 text-center text-xs text-gray-400 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <span>© 2026 Rizqi Indah Pratiwi. All rights reserved.</span>
+        </footer>
+
+    </div>
+
+</body>
+</html>
